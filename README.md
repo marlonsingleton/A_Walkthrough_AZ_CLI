@@ -16,9 +16,9 @@ Welcome to the cool new Azure CLI!
 Use `az --version` to display the current version.
 Here are the base commands:
 
-    account           : Manage Azure subscription information.
-    acr               : Manage private registries with Azure Container Registries.
-    acs               : Manage Azure Container Services.
+account           : Manage Azure subscription information.
+acr               : Manage private registries with Azure Container Registries.
+acs               : Manage Azure Container Services.
     ad                : Manage Azure Active Directory Graph entities needed for Role Based Access
                        Control.
     advisor           : Manage Azure Advisor.
@@ -103,3 +103,21 @@ Here are the base commands:
     vmss              : Manage groupings of virtual machines in an Azure Virtual Machine Scale Set
                        (VMSS).
     webapp            : Manage web apps.
+    
+PS C:\WINDOWS\system32> az login
+Note, we have launched a browser for you to login. For old experience with device code, use "az login --use-device-code"
+You have logged in. Now let us find all the subscriptions to which you have access...
+[
+  {
+    "cloudName": "AzureCloud",
+    "id": "Removed",
+    "isDefault": true,
+    "name": "Pay-As-You-Go",
+    "state": "Enabled",
+    "tenantId": "Removed",
+    "user": {
+      "name": "marlonosingleton@yahoo.com",
+      "type": "user"
+    }
+  }
+]
