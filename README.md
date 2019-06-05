@@ -10,10 +10,12 @@ PS C:\WINDOWS\system32> az
 <br/>
 Welcome to the cool new Azure CLI!
 
-<p>Use `az --version` to display the current version.<p/>
+<li>Use `az --version` to display the current version.<li/>
 Here are the base commands:
 
-account           : Manage Azure subscription information.
+<div>
+    <pre>
+    <li>    account     : Manage Azure subscription information.</li>
 acr               : Manage private registries with Azure Container Registries.
 acs               : Manage Azure Container Services.
     ad                : Manage Azure Active Directory Graph entities needed for Role Based Access
@@ -118,4 +120,5 @@ You have logged in. Now let us find all the subscriptions to which you have acce
     }
   }
 ]
-<p/>
+</pre>
+</div>
