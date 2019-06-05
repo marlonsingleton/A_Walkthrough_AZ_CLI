@@ -101,8 +101,9 @@ Here are the base commands:
     vmss              : Manage groupings of virtual machines in an Azure Virtual Machine Scale Set
                        (VMSS).
     webapp            : Manage web apps.
-    
-   
+</pre>
+</tr>
+<pre>   
 PS C:\WINDOWS\system32> az login
 Note, we have launched a browser for you to login. For old experience with device code, use "az login --use-device-code"
 You have logged in. Now let us find all the subscriptions to which you have access...
