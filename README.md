@@ -4,14 +4,11 @@ A brief exploration of the AZ CLI commands
 
 PS C:\WINDOWS\system32> az
 
-     /\
-    /  \    _____   _ _  ___ _
-   / /\ \  |_  / | | | \'__/ _\
-  / ____ \  / /| |_| | | |  __/
- /_/    \_\/___|\__,_|_|  \___|
+<img src="https://github.com/marlonsingleton/A_Walkthrough_AZ_CLI/blob/master/Azure_ASCII.jpg" align="left"/>
+<br/>
 
 
-Welcome to the cool new Azure CLI!
+<p>Welcome to the cool new Azure CLI!</p>
 
 Use `az --version` to display the current version.
 Here are the base commands:
