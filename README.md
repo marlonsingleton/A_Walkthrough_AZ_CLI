@@ -4,13 +4,13 @@ A brief exploration of the AZ CLI commands
 
 PS C:\WINDOWS\system32> az
 
-<img src="https://github.com/marlonsingleton/A_Walkthrough_AZ_CLI/blob/master/Azure_ASCII.jpg" align="left"/>
-<br/>
+<img src="https://github.com/marlonsingleton/A_Walkthrough_AZ_CLI/blob/master/Azure_ASCII.jpg" align="left"/><br/><br/><br/>
 
 
-<p>Welcome to the cool new Azure CLI!</p>
 
-Use `az --version` to display the current version.
+<p align="left">Welcome to the cool new Azure CLI!<p/>
+
+<p>Use `az --version` to display the current version.<p/>
 Here are the base commands:
 
 account           : Manage Azure subscription information.
@@ -118,3 +118,4 @@ You have logged in. Now let us find all the subscriptions to which you have acce
     }
   }
 ]
+<p/>
