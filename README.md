@@ -8,7 +8,7 @@ PS C:\WINDOWS\system32> az
 
 
 <br/>
-<p align="left">Welcome to the cool new Azure CLI!<p/>
+Welcome to the cool new Azure CLI!
 
 <p>Use `az --version` to display the current version.<p/>
 Here are the base commands:
