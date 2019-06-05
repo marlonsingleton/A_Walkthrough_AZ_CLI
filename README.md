@@ -6,7 +6,8 @@ PS C:\WINDOWS\system32> az
 
 <img src="https://github.com/marlonsingleton/A_Walkthrough_AZ_CLI/blob/master/Azure_ASCII.jpg" align="left"/></br></br></br>
 
-
+<tr>
+<br/>
 <pre>
 Welcome to the cool new Azure CLI!
 
@@ -120,4 +121,4 @@ You have logged in. Now let us find all the subscriptions to which you have acce
   }
 ]
 </pre>
-</div>
+
