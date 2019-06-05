@@ -105,7 +105,6 @@ Here are the base commands:
 PS C:\WINDOWS\system32> az login
 Note, we have launched a browser for you to login. For old experience with device code, use "az login --use-device-code"
 You have logged in. Now let us find all the subscriptions to which you have access...
-
 ```json
 [
   {
@@ -116,7 +115,7 @@ You have logged in. Now let us find all the subscriptions to which you have acce
     "state": "Enabled",
     "tenantId": "Removed",
     "user": {
-      "name": "marlonosingleton@yahoo.com",  //No spam please, thanks.
+      "name": "my_email_address",  
       "type": "user"
     }
   }
