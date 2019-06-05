@@ -7,7 +7,7 @@ PS C:\WINDOWS\system32> az
 <img src="https://github.com/marlonsingleton/A_Walkthrough_AZ_CLI/blob/master/Azure_ASCII.jpg" align="left"/><br/><br/><br/>
 
 
-
+<br/>
 <p align="left">Welcome to the cool new Azure CLI!<p/>
 
 <p>Use `az --version` to display the current version.<p/>
