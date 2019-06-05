@@ -4,20 +4,18 @@ A brief exploration of the AZ CLI commands
 
 PS C:\WINDOWS\system32> az
 
-<img src="https://github.com/marlonsingleton/A_Walkthrough_AZ_CLI/blob/master/Azure_ASCII.jpg" align="left"/><br/><br/><br/>
+<img src="https://github.com/marlonsingleton/A_Walkthrough_AZ_CLI/blob/master/Azure_ASCII.jpg" align="left"/></br></br></br>
 
 
-<br/>
+<pre>
 Welcome to the cool new Azure CLI!
 
-<li>Use `az --version` to display the current version.<li/>
+Use `az --version` to display the current version.
 Here are the base commands:
 
-<div>
-    <pre>
-    <li>    account     : Manage Azure subscription information.</li>
-acr               : Manage private registries with Azure Container Registries.
-acs               : Manage Azure Container Services.
+    account           : Manage Azure subscription information.
+    acr               : Manage private registries with Azure Container Registries.
+    acs               : Manage Azure Container Services.
     ad                : Manage Azure Active Directory Graph entities needed for Role Based Access
                        Control.
     advisor           : Manage Azure Advisor.
@@ -103,6 +101,7 @@ acs               : Manage Azure Container Services.
                        (VMSS).
     webapp            : Manage web apps.
     
+   
 PS C:\WINDOWS\system32> az login
 Note, we have launched a browser for you to login. For old experience with device code, use "az login --use-device-code"
 You have logged in. Now let us find all the subscriptions to which you have access...
