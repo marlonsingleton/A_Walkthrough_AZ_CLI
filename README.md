@@ -391,8 +391,35 @@ BillingPeriodEndDate    BillingPeriodStartDate    Name
 2019-04-07              2019-03-08                201905-1
 2019-03-06              2019-02-07                201904-1
 <br>
-Let's try doing some az commands from powershell core on Ubuntu.
-The URL for the install https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-6#ubuntu-1804
+Create and deploy bots!
+marlon@linux:~$ az bot -h
+
+Group
+    az bot : Manage Microsoft Azure Bot Service.
+
+Subgroups:
+    authsetting     : Manage OAuth connection settings on a bot.
+    directline      : Manage the Directline Channel on a bot.
+    email           : Manage the email Channel on a bot.
+    facebook        : Manage the Facebook Channel on a bot.
+    kik             : Manage the Kik Channel on a bot.
+    msteams         : Manage the Microsoft Teams Channel on a bot.
+    skype           : Manage the Skype Channel on a bot.
+    slack           : Manage the Slack Channel on a bot.
+    sms             : Manage the SMS Channel on a bot.
+    telegram        : Manage the Telegram Channel on a bot.
+    webchat         : Manage the Webchat Channel on a bot.
+
+Commands:
+    create          : Create a new bot.
+    delete          : Delete an existing bot.
+    download        : Download an existing bot.
+    prepare-deploy  : Add scripts/config files for publishing with `az webapp deployment`.
+    prepare-publish : Add scripts to your local source code directory to be able to publish back
+                      using `az bot publish`.
+    publish         : Publish to a bot's associated app service.
+    show            : Get an existing bot.
+    update          : Update an existing bot.
 
 </pre>
 
