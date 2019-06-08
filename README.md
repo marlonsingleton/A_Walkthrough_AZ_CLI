@@ -377,11 +377,11 @@ Commands:
     list       : List clusters.
     resize     : Resize a cluster.
     show       : Show information about a cluster.    
-<br>
+
 Moving on since I don't have any batch deployments to manage.
 In effort of completeness, I'm moving over to my Ubuntu system.
-<br>
-marlon@linux:~$ az billing period list -o table
+
+marlon@linux:\~$ az billing period list -o table
 BillingPeriodEndDate    BillingPeriodStartDate    Name
 \----------------------  ------------------------  --------
 2019-07-07              2019-06-08                201909-1
