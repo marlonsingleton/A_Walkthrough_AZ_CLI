@@ -376,7 +376,24 @@ Commands:
     delete     : Delete a cluster.
     list       : List clusters.
     resize     : Resize a cluster.
-    show       : Show information about a cluster.
+    show       : Show information about a cluster.    
+<br>
+Moving on since I don't have any batch deployments to manage.
+In effort of completeness, I'm moving over to my Ubuntu system.
+<br>
+marlon@linux:~$ az billing period list -o table
+BillingPeriodEndDate    BillingPeriodStartDate    Name
+\----------------------  ------------------------  --------
+2019-07-07              2019-06-08                201909-1
+2019-06-07              2019-05-08                201908-1
+2019-05-07              2019-04-08                201907-1
+2019-04-07              2019-03-08                201906-1
+2019-04-07              2019-03-08                201905-1
+2019-03-06              2019-02-07                201904-1
+<br>
+Let's try doing some az commands from powershell core on Ubuntu.
+The URL for the install https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-6#ubuntu-1804
+
 </pre>
 
 ---
