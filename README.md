@@ -420,6 +420,34 @@ Commands:
     publish         : Publish to a bot's associated app service.
     show            : Get an existing bot.
     update          : Update an existing bot.
+    
+See and delete what cache objects you have.
+
+PS C:\WINDOWS\system32> az cache -h
+
+Group
+    az cache : Commands to manage CLI objects cached using the `--defer` argument.
+
+Commands:
+    delete : Delete an object from the cache.
+    list   : List the contents of the object cache.
+    purge  : Clear the entire CLI object cache.
+    show   : Show the contents of a specific object in the cache.
+
+PS C:\WINDOWS\system32> az cdn -h
+
+Group
+    az cdn : Manage Azure Content Delivery Networks (CDNs).
+
+Manage your Azure cloud registration.
+
+PS C:\WINDOWS\system32> az cloud list -o table
+IsActive    Name               Profile
+\----------  -----------------  ---------
+True        AzureCloud         latest
+False       AzureChinaCloud    latest
+False       AzureUSGovernment  latest
+False       AzureGermanCloud   latest
 
 </pre>
 
