@@ -170,7 +170,7 @@ Australia Central 2  -35.3075    149.1244     australiacentral2
 South Africa North   -25.731340  28.218370    southafricanorth
 South Africa West    -34.075691  18.843266    southafricawest
 
-Let's use JMESPath query string @ http://jmespath.org/
+Let's use a JMESPath query string. Find out more about it @ http://jmespath.org/
 
 PS C:\WINDOWS\system32> az account list-locations --query "[?longitude == '18.843266']" -o table
 Name             DisplayName        Latitude    Longitude
