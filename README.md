@@ -449,6 +449,22 @@ False       AzureChinaCloud    latest
 False       AzureUSGovernment  latest
 False       AzureGermanCloud   latest
 
+Interested in using Azure's cognitive services? You'll need the SDK.
+Then you can leverage things like text sentiment, speech and Bing search services.
+From here you can manage the necessary service account.
+
+PS C:\WINDOWS\system32> az cognitiveservices -h
+
+Group
+    az cognitiveservices : Manage Azure Cognitive Services accounts.
+        This article lists the Azure CLI commands for Azure Cognitive Services account and
+        subscription management only. Refer to the documentation at
+        https://docs.microsoft.com/azure/cognitive-services/ for individual services to learn how to
+        use the APIs and supported SDKs.
+
+Subgroups:
+    account : Manage Azure Cognitive Services accounts.
+
 </pre>
 
 ---
