@@ -496,7 +496,7 @@ Global Arguments
     --verbose                          : Increase logging verbosity. Use --debug for full debug
                                          logs.
                                          
-Everyone want's to have more insight about their resource usage right? So I went deeper with this one.
+Everyone want's to have more insight about their resource usage, right? So I went deeper with this one.
 Here's the usage of the first 3 services under my subscription for the date ranges mentioned.
 
 marlon@linux:~$ az consumption usage list -s 2019-04-01 -e 2019-05-01 --query '[:3].{Service:consumedService,Currency:currency,Usage:usageQuantity}' -o table
