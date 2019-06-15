@@ -464,6 +464,48 @@ Group
 
 Subgroups:
     account : Manage Azure Cognitive Services accounts.
+    
+Let's look at our Azure resource usage.
+
+marlon@linux:~$ az consumption usage list -h
+
+Command
+    az consumption usage list : List the details of Azure resource consumption, either as an invoice
+    or within a billing period.
+
+Arguments
+    --billing-period-name -p           : Name of the billing period to get the usage details that
+                                         associate with.
+    --end-date -e                      : End date (YYYY-MM-DD in UTC). If specified, also requires
+                                         --start-date.
+    --include-additional-properties -a : Include additional properties in the usages.
+    --include-meter-details -m         : Include meter details in the usages.
+    --start-date -s                    : Start date (YYYY-MM-DD in UTC). If specified, also requires
+                                         --end-date.
+    --top -t                           : Maximum number of items to return. Value range: 1-1000.
+
+Global Arguments
+    --debug                            : Increase logging verbosity to show all debug logs.
+    --help -h                          : Show this help message and exit.
+    --output -o                        : Output format.  Allowed values: json, jsonc, none, table,
+                                         tsv, yaml.  Default: json.
+    --query                            : JMESPath query string. See http://jmespath.org/ for more
+                                         information and examples.
+    --subscription                     : Name or ID of subscription. You can configure the default
+                                         subscription using `az account set -s NAME_OR_ID`.
+    --verbose                          : Increase logging verbosity. Use --debug for full debug
+                                         logs.
+                                         
+Everyone want's to have more insight about their resource usage right? So I went deeper with this one.
+Here's the usage of the first 3 services under my subscription for the date ranges mentioned.
+
+marlon@linux:~$ az consumption usage list -s 2019-04-01 -e 2019-05-01 --query '[:3].{Service:consumedService,Currency:currency,Usage:usageQuantity}' -o table
+Service                         Currency    Usage
+\------------------------------  ----------  --------------------------------------------------------------------
+Microsoft.AzureActiveDirectory  USD         0.06666666666666699880838820035933167673647403717041015625
+Microsoft.Storage               USD         0.000072000000000000001824061734989612659774138592183589935302734375
+Microsoft.Storage               USD         0.01460000000000000013045120539345589349977672100067138671875
+
 
 </pre>
 
