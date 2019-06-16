@@ -508,7 +508,25 @@ Microsoft.Storage               USD         0.0146000000000000001304512053934558
 
 If the above query string looks a bit cryptic to you, another JMESPATH resource is https://azurecitadel.com/prereqs/cli/cli-3-jmespath/
 
+I'm sure I'll talk about containers in depth on another forum but for now, know that you can manage them from az cli.
 
+marlon@linux:~$ az container -h
+
+Group
+    az container : Manage Azure Container Instances.
+
+Commands:
+    attach  : Attach local standard output and error streams to a container in a container group.
+    create  : Create a container group.
+    delete  : Delete a container group.
+    exec    : Execute a command from within a running container of a container group.
+    export  : Export a container group in yaml format.
+    list    : List container groups.
+    logs    : Examine the logs for a container in a container group.
+    restart : Restarts all containers in a container group.
+    show    : Get the details of a container group.
+    start   : Starts all containers in a container group.
+    stop    : Stops all containers in a container group.
 
 </pre>
 
