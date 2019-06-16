@@ -508,7 +508,8 @@ Microsoft.Storage               USD         0.0146000000000000001304512053934558
 
 If the above query string looks a bit cryptic to you, another JMESPATH resource is https://azurecitadel.com/prereqs/cli/cli-3-jmespath/
 
-I'm sure I'll talk about containers in depth on another forum but for now, know that you can manage them from az cli.
+I'm sure I'll talk about containers in depth on another forum.
+For now, note the management capabilities available in az cli.
 
 marlon@linux:~$ az container -h
 
