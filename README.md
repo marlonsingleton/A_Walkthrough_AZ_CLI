@@ -528,6 +528,33 @@ Commands:
     show    : Get the details of a container group.
     start   : Starts all containers in a container group.
     stop    : Stops all containers in a container group.
+    
+If you didn't already know, Cosmos DB formerly Azure DocumentDB is a planet-scale NoSQL database.
+
+marlon@linux:~$ az cosmosdb -h
+
+Group
+    az cosmosdb : Manage Azure Cosmos DB database accounts.
+
+Subgroups:
+    collection               : Manage Azure Cosmos DB collections.
+    database                 : Manage Azure Cosmos DB databases.
+    network-rule             : Manage Azure Comsos DB network rules.
+
+Commands:
+    check-name-exists        : Checks if an Azure Cosmos DB account name exists.
+    create                   : Creates a new Azure Cosmos DB database account.
+    delete                   : Deletes an Azure Cosmos DB database account.
+    failover-priority-change : Changes the failover priority for the Azure Cosmos DB database
+                               account.
+    list                     : List Azure Cosmos DB database accounts.
+    list-connection-strings  : List the connection strings for a Azure Cosmos DB database account.
+    list-keys                : List the access keys for a Azure Cosmos DB database account.
+    list-read-only-keys      : List the read-only access keys for a Azure Cosmos DB database
+                               account.
+    regenerate-key           : Regenerate an access key for a Azure Cosmos DB database account.
+    show                     : Get the details of an Azure Cosmos DB database account.
+    update                   : Update an Azure Cosmos DB database account.
 
 </pre>
 
