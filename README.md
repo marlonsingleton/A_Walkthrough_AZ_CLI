@@ -513,4 +513,4 @@ If the above query string looks a bit cryptic to you, another JMESPATH resource 
 </pre>
 
 ---
-(Incomplete) More coming soon!!!
+(Incomplete) updated frequently!!!
