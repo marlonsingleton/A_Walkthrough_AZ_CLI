@@ -506,6 +506,9 @@ Microsoft.AzureActiveDirectory  USD         0.0666666666666669988083882003593316
 Microsoft.Storage               USD         0.000072000000000000001824061734989612659774138592183589935302734375
 Microsoft.Storage               USD         0.01460000000000000013045120539345589349977672100067138671875
 
+If the above query string looks a bit cryptic to you, another JMESPATH resource is https://azurecitadel.com/prereqs/cli/cli-3-jmespath/
+
+
 
 </pre>
 
