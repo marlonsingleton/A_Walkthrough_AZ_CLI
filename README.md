@@ -555,6 +555,25 @@ Commands:
     regenerate-key           : Regenerate an access key for a Azure Cosmos DB database account.
     show                     : Get the details of an Azure Cosmos DB database account.
     update                   : Update an Azure Cosmos DB database account.
+    
+If you know me, I'm all about using 'az deployment' to test my ARM Template deployments.
+
+marlon@linux:~$ az deployment -h
+
+Group
+    az deployment : Manage Azure Resource Manager deployments at subscription scope.
+
+Subgroups:
+    operation : Manage deployment operations.
+
+Commands:
+    create    : Start a deployment.
+    delete    : Deletes a deployment from the deployment history.
+    export    : Export the template used for a deployment.
+    list      : Get all the deployments for a subscription.
+    show      : Gets a deployment.
+    validate  : Validate whether a template is syntactically correct.
+    wait      : Place the CLI in a waiting state until a deployment condition is met.
 
 </pre>
 
