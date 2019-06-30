@@ -574,6 +574,49 @@ Commands:
     show      : Gets a deployment.
     validate  : Validate whether a template is syntactically correct.
     wait      : Place the CLI in a waiting state until a deployment condition is met.
+    
+Let's see how we can manage out disk.
+
+marlon@linux:~$ az disk -h
+
+Group
+    az disk : Manage Azure Managed Disks.
+        Azure Virtual Machines use disks as a place to store an operating system, applications, and
+        data. All Azure virtual machines have at least two disks: An operating system disk, and a
+        temporary disk. The operating system disk is created from an image, and both the operating
+        system disk and the image are actually virtual hard disks (VHDs) stored in an Azure storage
+        account. Virtual machines also can have one or more data disks, that are also stored as
+        VHDs.
+
+        Azure Managed and Unmanaged Data Disks have a maximum size of 4095 GB (with the exception of
+        larger disks in preview). Azure Unmanaged Disks also have a maximum capacity of 4095 GB.
+
+        For more information, see:
+        - Azure Disks - https://docs.microsoft.com/en-us/azure/virtual-machines/linux/about-disks-
+        and-vhds and https://docs.microsoft.com/en-us/azure/virtual-machines/windows/about-disks-
+        and-vhds.
+        - Larger Managed Disks in Public Preview - https://azure.microsoft.com/en-
+        us/blog/introducing-the-public-preview-of-larger-managed-disks-sizes/
+        - Ultra SSD Managed Disks in Public Preview - https://docs.microsoft.com/en-
+        us/azure/virtual-machines/windows/disks-ultra-ssd.
+
+Commands:
+    create        : Create a managed disk.
+    delete        : Delete a managed disk.
+    grant-access  : Grant a resource access to a managed disk.
+    list          : List managed disks.
+    revoke-access : Revoke a resource's read access to a managed disk.
+    show          : Gets information about a disk.
+    update        : Update a managed disk.
+    wait          : Place the CLI in a waiting state until a condition of a managed disk is met.
+
+
+marlon@linux:~$ az disk list -o table
+Name                                            ResourceGroup    Location    Zones    Sku          SizeGb    ProvisioningState    OsType
+\----------------------------------------------  ---------------  ----------  -------  -----------  --------  -------------------  --------
+linuxvm_DataDisk_0                              TESTMACHINESRG   eastasia             Premium_LRS  2046      Succeeded
+linuxvm_disk1_c7c98b66a96f4a6995d65269f2e49f3a  TESTMACHINESRG   eastasia             Premium_LRS  30        Succeeded            Linux
+
 
 </pre>
 
