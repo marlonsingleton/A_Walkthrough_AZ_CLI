@@ -617,6 +617,33 @@ Name                                            ResourceGroup    Location    Zon
 linuxvm_DataDisk_0                              TESTMACHINESRG   eastasia             Premium_LRS  2046      Succeeded
 linuxvm_disk1_c7c98b66a96f4a6995d65269f2e49f3a  TESTMACHINESRG   eastasia             Premium_LRS  30        Succeeded            Linux
 
+It's possible to manage your data migrations as well.
+
+marlon@linux:~$ az dms -h
+
+Group
+    az dms : Manage Azure Data Migration Service (DMS) instances.
+
+Subgroups:
+    project      : Manage Projects for an instance of the Data Migration Service.
+
+Commands:
+    check-name   : Check if a given DMS instance name is available in a given region as well as the
+                   name's validity.
+    check-status : Perform a health check and return the status of the service and virtual machine
+                   size.
+    create       : Create an instance of the Data Migration Service.
+    delete       : Delete an instance of the Data Migration Service.
+    list         : List the DMS instances within your currently configured subscription (to set this
+                   use "az account set"). If provided, only show the instances within a given
+                   resource group.
+    list-skus    : List the SKUs that are supported by the Data Migration Service.
+    show         : Show the details for an instance of the Data Migration Service.
+    start        : Start an instance of the Data Migration Service. It can then be used to run data
+                   migrations.
+    stop         : Stop an instance of the Data Migration Service. While stopped, it can't be used
+                   to run data migrations and the owner won't be billed.
+    wait         : Place the CLI in a waiting state until a condition of the DMS instance is met.
 
 </pre>
 
