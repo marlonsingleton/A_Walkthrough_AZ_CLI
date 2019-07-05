@@ -644,6 +644,34 @@ Commands:
     stop         : Stop an instance of the Data Migration Service. While stopped, it can't be used
                    to run data migrations and the owner won't be billed.
     wait         : Place the CLI in a waiting state until a condition of the DMS instance is met.
+    
+If you are automating actions within your Azure environment using event grid? You're covered!
+
+PS C:\WINDOWS\system32> az eventgrid -h
+
+Group
+    az eventgrid : Manage Azure Event Grid topics and subscriptions.
+
+Subgroups:
+    event-subscription : Manage event subscriptions for an Event Grid topic or for an Azure
+                         resource.
+    topic              : Manage Azure Event Grid topics.
+    topic-type         : Get details for topic types.
+
+PS C:\WINDOWS\system32> az eventgrid event-subscription -h
+
+Group
+    az eventgrid event-subscription : Manage event subscriptions for an Event Grid topic or for an
+    Azure resource.
+        Manage event subscriptions for an Event Grid topic, Azure subscription, resource group or
+        for any other Azure resource that supports event notifications.
+
+Commands:
+    create : Create a new event subscription for an Event Grid topic or for an Azure resource.
+    delete : Delete an event subscription.
+    list   : List event subscriptions.
+    show   : Get the details of an event subscription.
+    update : Update an event subscription.
 
 </pre>
 
