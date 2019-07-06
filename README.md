@@ -672,6 +672,36 @@ Commands:
     list   : List event subscriptions.
     show   : Get the details of an event subscription.
     update : Update an event subscription.
+    
+Are you streaming event data uses Event Hub? If so, you can manage that from here too.
+
+marlon@localhost:~$ az eventhubs -h
+
+Group
+    az eventhubs : Manage Azure Event Hubs namespaces, eventhubs, consumergroups and geo recovery
+    configurations - Alias.
+
+Subgroups:
+    eventhub          : Manage Azure EventHubs eventhub and authorization-rule.
+    georecovery-alias : Manage Azure EventHubs Geo Recovery configuration Alias.
+    namespace         : Manage Azure EventHubs namespace and Authorizationrule.
+
+marlon@localhost:~$ az eventhubs eventhub -h
+
+Group
+    az eventhubs eventhub : Manage Azure EventHubs eventhub and authorization-rule.
+
+Subgroups:
+    authorization-rule : Manage Azure Service Bus Authorizationrule for Eventhub.
+    consumer-group     : Manage Azure Event Hubs consumergroup.
+
+Commands:
+    create             : Creates the EventHubs Eventhub.
+    delete             : Deletes the Eventhub.
+    list               : List the EventHub by Namepsace.
+    show               : Shows the Eventhub Details.
+    update             : Updates the EventHubs Eventhub.
+
 
 </pre>
 
