@@ -702,6 +702,41 @@ Commands:
     show               : Shows the Eventhub Details.
     update             : Updates the EventHubs Eventhub.
 
+If you're looking to access experimental and preview commands, az extension provides it for you.
+
+Below is a subset of the output.
+
+marlon@localhost:~$ az extension list-available
+[
+  {
+    "installed": false,
+    "name": "aem",
+    "preview": false,
+    "summary": "Manage Azure Enhanced Monitoring Extensions for SAP",
+    "version": "0.1.1"
+  },
+  {
+    "installed": false,
+    "name": "aks-preview",
+    "preview": true,
+    "summary": "Provides a preview for upcoming AKS features",
+    "version": "0.4.5"
+  },
+  {
+    "installed": false,
+    "name": "alias",
+    "preview": true,
+    "summary": "Support for command aliases",
+    "version": "0.5.2"
+  },
+  {
+    "installed": false,
+    "name": "appconfig",
+    "preview": true,
+    "summary": "Provides a preview for upcoming App Configuration features.",
+    "version": "0.5.0"
+  }
+]
 
 </pre>
 
