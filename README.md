@@ -703,8 +703,6 @@ Commands:
     update             : Updates the EventHubs Eventhub.
 
 If you're looking to access experimental and preview commands, az extension provides it for you.
-
-Below is a subset of the output.
 <pre>
 marlon@localhost:~$ az extension list-available
 [
