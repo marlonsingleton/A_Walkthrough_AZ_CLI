@@ -736,11 +736,13 @@ marlon@localhost:~$ az extension list-available
   }
 ]
 
+</pre>
+
 Curious about the features availabe from various resource providers? Take a look at this small subset!
 
 marlon@localhost:~$ az feature list -o table
 Name                                                                              RegistrationState
---------------------------------------------------------------------------------  -------------------
+\--------------------------------------------------------------------------------  -------------------
 CloudSimple.PrivateCloudIAAS/stagingRP                                            NotRegistered
 Microsoft.AAD/previewAccess                                                       NotRegistered
 Microsoft.AnalysisServices/UnifiedGateway                                         NotRegistered
