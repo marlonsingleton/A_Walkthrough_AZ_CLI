@@ -736,6 +736,42 @@ marlon@localhost:~$ az extension list-available
   }
 ]
 
+Curious about the features availabe from various resource providers? Take a look at this small subset!
+
+marlon@localhost:~$ az feature list -o table
+Name                                                                              RegistrationState
+--------------------------------------------------------------------------------  -------------------
+CloudSimple.PrivateCloudIAAS/stagingRP                                            NotRegistered
+Microsoft.AAD/previewAccess                                                       NotRegistered
+Microsoft.AnalysisServices/UnifiedGateway                                         NotRegistered
+Microsoft.Automation/dsc                                                          NotRegistered
+Microsoft.AzureStack/Marketplace                                                  NotRegistered
+Microsoft.BatchAI/workspace                                                       NotRegistered
+Microsoft.Blockchain/privatePreviewAccess                                         NotRegistered
+Microsoft.Blueprint/privatePreview                                                NotRegistered
+Microsoft.Cache/betaAccess3                                                       NotRegistered
+Microsoft.Cdn/StageCanary                                                         NotRegistered
+Microsoft.CognitiveServices/TokenAuthPreview                                      NotRegistered
+Microsoft.Compute/AvailabilitySetPinning                                          NotRegistered
+Microsoft.Compute/ZRSImagesAndSnapshots                                           NotRegistered
+Microsoft.ContainerInstance/extension                                             NotRegistered
+Microsoft.ContainerService/DockerEngineImage                                      NotRegistered
+Microsoft.DocumentDB/Metrics                                                      NotRegistered
+Microsoft.KeyVault/EventGridPreview                                               NotRegistered
+Microsoft.ManagedIdentity/EnableSecurityGroups                                    NotRegistered
+Microsoft.Microsoft/AllowNetworkWatcherAzureReachabilityReport                    NotRegistered
+Microsoft.NetApp/AllowSMB                                                         NotRegistered
+Microsoft.Network/AllowVnetPeering                                                NotRegistered
+Microsoft.Sql/serverless-publicpreview                                            NotRegistered
+Microsoft.Storage/AllowADFS                                                       NotRegistered
+Microsoft.TerraformOSS/EnableTerraformPreview                                     NotRegistered
+Microsoft.VirtualMachineImages/CanaryAccess                                       NotRegistered
+Microsoft.VirtualMachineImages/VirtualMachineTemplatePreview                      NotRegistered
+Microsoft.VisualStudio/ExtensionResource                                          NotRegistered
+Microsoft.VMwareCloudSimple/CloudSimpleRP1                                        NotRegistered
+Microsoft.Network/AllowTcpPort25Out                                               Registered
+
+
 </pre>
 
 ---
