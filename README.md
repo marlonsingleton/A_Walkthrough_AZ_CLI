@@ -773,6 +773,29 @@ Microsoft.VisualStudio/ExtensionResource                                        
 Microsoft.VMwareCloudSimple/CloudSimpleRP1                                        NotRegistered
 Microsoft.Network/AllowTcpPort25Out                                               Registered
 
+Do you have an issue? You can submit an issue directly from Azure CLI.
+
+marlon@localhost:~$ az feedback
+
+We appreciate your feedback!
+
+For more information on getting started, visit: aka.ms/azcli/get-started
+If you have questions, visit our Stack Overflow page: aka.ms/azcli/questions
+
+Recent commands:
+
+   [0] create a generic issue.
+   [1] az extension list-available: SUCCESS. Ran: 4 days ago. 
+   [2] az extension list-available: SUCCESS. Ran: 3 days ago. 
+   [3] az extension list-available: SUCCESS. Ran: 3 days ago. 
+   [4] az extension --help        : SUCCESS. Ran: 3 days ago. 
+   [5] Unknown (features -h)      : FAILURE. Ran: 3 days ago. 
+   [6] az feature --help          : SUCCESS. Ran: 3 days ago. 
+   [7] az feature list            : SUCCESS. Ran: 3 days ago. 
+   [8] az feature list            : SUCCESS. Ran: 3 days ago. 
+   [9] az login                   : SUCCESS. Ran: 14 mins ago.
+
+Enter the number of the command you would like to create an issue for. Enter q to quit: _
 
 </pre>
 
