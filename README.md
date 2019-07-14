@@ -797,6 +797,32 @@ Recent commands:
 
 Enter the number of the command you would like to create an issue for. Enter q to quit: _
 
+"az find" may or may not stick around but it makes looking for common commands patterns a bit easier.
+
+marlon@localhost:~$ az find "cache"
+This command is in preview. It may be changed/removed in a future release.
+Finding examples...
+
+Here are the most common ways to use [cache]: 
+
+Import data into a Redis cache.
+az redis import	--files
+		--file-format
+		--ids
+		--name -n
+		--resource-group -g
+		--subscription
+
+List Redis Caches.
+az redis list	--resource-group -g
+		--subscription
+
+Update the patching schedule for Redis cache.
+az redis patch-schedule update	--name -n
+		--resource-group -g
+		--schedule-entries
+		--subscription
+
 </pre>
 
 ---
