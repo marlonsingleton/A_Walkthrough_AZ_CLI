@@ -822,6 +822,35 @@ az redis patch-schedule update	--name -n
 		--resource-group -g
 		--schedule-entries
 		--subscription
+		
+		
+Of course you've heard of serverless. With functionapps you worry about the code, not the underlying hardware.
+
+marlon@localhost:~$ az functionapp -h
+
+Group
+    az functionapp : Manage function apps. To install the Azure Functions Core tools see
+    https://github.com/Azure/azure-functions-core-tools.
+
+Subgroups:
+    config                     : Configure a function app.
+    cors                       : Manage Cross-Origin Resource Sharing (CORS).
+    deployment                 : Manage function app deployments.
+    devops-pipeline            : Azure Function specific integration with Azure DevOps. Please visit
+                                 https://aka.ms/functions-azure-devops for more information.
+    identity                   : Manage web app's managed service identity.
+    plan                       : Manage App Service Plans for an Azure Function.
+
+Commands:
+    create                     : Create a function app.
+    delete                     : Delete a function app.
+    list                       : List function apps.
+    list-consumption-locations : List available locations for running function apps.
+    restart                    : Restart a function app.
+    show                       : Get the details of a function app.
+    start                      : Start a function app.
+    stop                       : Stop a function app.
+    update                     : Update a function app.
 
 </pre>
 
