@@ -851,6 +851,40 @@ Commands:
     start                      : Start a function app.
     stop                       : Stop a function app.
     update                     : Update a function app.
+    
+marlon@localhost:~$ az group -h
+
+Group
+    az group : Manage resource groups and template deployments.
+
+Subgroups:
+    deployment : Manage Azure Resource Manager deployments.
+    lock       : Manage Azure resource group locks.
+
+Commands:
+    create     : Create a new resource group.
+    delete     : Delete a resource group.
+    exists     : Check if a resource group exists.
+    export     : Captures a resource group as a template.
+    list       : List resource groups.
+    show       : Gets a resource group.
+    update     : Update a resource group.
+    wait       : Place the CLI in a waiting state until a condition of the resource group is met.
+    
+Easily manage your resource groups.
+
+marlon@localhost:~$ az group list -o table
+Name                             Location     Status
+\-------------------------------  -----------  ---------
+AzureBackupRG_northeurope_1      northeurope  Succeeded
+b2cusers                         eastus       Succeeded
+cloud-shell-storage-northeurope  northeurope  Succeeded
+db_vm_test                       eastus       Succeeded
+dbmigration                      brazilsouth  Succeeded
+ms-test-app                      centralus    Succeeded
+myTFrg                           eastus       Succeeded
+NetworkWatcherRG                 northeurope  Succeeded
+
 
 </pre>
 
