@@ -852,6 +852,8 @@ Commands:
     stop                       : Stop a function app.
     update                     : Update a function app.
     
+Easily manage your resource groups.
+    
 marlon@localhost:~$ az group -h
 
 Group
@@ -871,7 +873,6 @@ Commands:
     update     : Update a resource group.
     wait       : Place the CLI in a waiting state until a condition of the resource group is met.
     
-Easily manage your resource groups.
 
 marlon@localhost:~$ az group list -o table
 Name                             Location     Status
