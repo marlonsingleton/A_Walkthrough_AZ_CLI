@@ -886,7 +886,28 @@ ms-test-app                      centralus    Succeeded
 myTFrg                           eastus       Succeeded
 NetworkWatcherRG                 northeurope  Succeeded
 
+Working with big data? No problem!
 
+marlon@localhost:~$ az hdinsight -h
+
+Group
+    az hdinsight : Manage HDInsight resources.
+        This command group is in preview. It may be changed/removed in a future release.
+Subgroups:
+    application                : Manage HDInsight applications.
+    monitor                    : Manage Azure Monitor logs integration on the HDInsight cluster.
+    script-action              : Manage HDInsight script actions.
+
+Commands:
+    create                     : Creates a new cluster.
+    delete                     : Deletes the specified HDInsight cluster.
+    list                       : List clusters in the resource group or subscription.
+    list-usage                 : Lists the usages for the specified location.
+    resize                     : Resizes the specified HDInsight cluster to the specified size.
+    rotate-disk-encryption-key : Rotate disk encryption key of the specified HDInsight cluster.
+    show                       : Gets the specified cluster.
+    update                     : Patch HDInsight cluster with the specified parameters.
+    wait                       : Place the CLI in a waiting state until an operation is complete.
 </pre>
 
 ---
