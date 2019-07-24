@@ -908,6 +908,31 @@ Commands:
     show                       : Gets the specified cluster.
     update                     : Patch HDInsight cluster with the specified parameters.
     wait                       : Place the CLI in a waiting state until an operation is complete.
+    
+
+Are you utilizings "managed service identities"? You can manage them directly from the cli as well.
+
+marlon@localhost:~$ az identity -h
+
+Group
+    az identity : Managed Service Identities.
+
+Commands:
+    create          : Create or update an identity in the specified subscription and resource group.
+    delete          : Deletes the identity.
+    list            : List Managed Service Identities.
+    list-operations : Lists available operations for the Managed Identity provider.
+    show            : Gets the identity.
+
+marlon@localhost:~$ az identity list-operations -o table
+Name
+\--------------------------------------------------------------
+Microsoft.ManagedIdentity/identities/read
+Microsoft.ManagedIdentity/userAssignedIdentities/read
+Microsoft.ManagedIdentity/userAssignedIdentities/write
+Microsoft.ManagedIdentity/userAssignedIdentities/delete
+Microsoft.ManagedIdentity/userAssignedIdentities/assign/action
+Microsoft.ManagedIdentity/register/action
 </pre>
 
 ---
