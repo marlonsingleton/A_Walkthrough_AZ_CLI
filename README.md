@@ -934,20 +934,7 @@ Microsoft.ManagedIdentity/userAssignedIdentities/delete
 Microsoft.ManagedIdentity/userAssignedIdentities/assign/action
 Microsoft.ManagedIdentity/register/action
 
-marlon@Azure:~$ az image -h
-
-Group
-    az image : Manage custom virtual machine images.
-
-Subgroups:
-    template [Preview] : Manage and build image builder templates.
-
-Commands:
-    create             : Create a custom Virtual Machine Image from managed disks or snapshots.
-    delete             : Deletes an Image.
-    list               : List custom VM images.
-    show               : Gets an image.
-    update             : Update custom VM images.
+Are you using custom scripts in your subscription? You can list and manage them here.
 
 marlon@Azure:~$ az image list -h
 
