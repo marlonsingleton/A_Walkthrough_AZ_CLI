@@ -933,6 +933,41 @@ Microsoft.ManagedIdentity/userAssignedIdentities/write
 Microsoft.ManagedIdentity/userAssignedIdentities/delete
 Microsoft.ManagedIdentity/userAssignedIdentities/assign/action
 Microsoft.ManagedIdentity/register/action
+
+marlon@Azure:~$ az image -h
+
+Group
+    az image : Manage custom virtual machine images.
+
+Subgroups:
+    template [Preview] : Manage and build image builder templates.
+
+Commands:
+    create             : Create a custom Virtual Machine Image from managed disks or snapshots.
+    delete             : Deletes an Image.
+    list               : List custom VM images.
+    show               : Gets an image.
+    update             : Update custom VM images.
+
+marlon@Azure:~$ az image list -h
+
+Command
+    az image list : List custom VM images.
+
+Arguments
+    --resource-group -g : Name of resource group. You can configure the default group using `az
+                          configure --defaults group=<name>`.
+
+Global Arguments
+    --debug             : Increase logging verbosity to show all debug logs.
+    --help -h           : Show this help message and exit.
+    --output -o         : Output format.  Allowed values: json, jsonc, none, table, tsv, yaml.
+                          Default: json.
+    --query             : JMESPath query string. See http://jmespath.org/ for more information and
+                          examples.
+    --subscription      : Name or ID of subscription. You can configure the default subscription
+                          using `az account set -s NAME_OR_ID`.
+    --verbose           : Increase logging verbosity. Use --debug for full debug logs.
 </pre>
 
 ---
