@@ -955,6 +955,17 @@ Global Arguments
     --subscription      : Name or ID of subscription. You can configure the default subscription
                           using `az account set -s NAME_OR_ID`.
     --verbose           : Increase logging verbosity. Use --debug for full debug logs.
+
+Looking to utilize auto-completion, descriptions, examples...? Use "az interactive".
+
+You'll receive a prompt like below.
+
+marlon@Azure:~$ az interactive
+This command is in preview. It may be changed/removed in a future release.
+Installing the Interactive extension...
+The installed extension 'interactive' is in preview.
+
+Do you agree to sending telemetry (yes/no)? Default answer is yes:
 </pre>
 
 ---
