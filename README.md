@@ -966,6 +966,21 @@ Installing the Interactive extension...
 The installed extension 'interactive' is in preview.
 
 Do you agree to sending telemetry (yes/no)? Default answer is yes:
+
+Got IoT? : )
+
+marlon@Azure:~$ az iot -h
+
+Group
+    az iot : Manage Internet of Things (IoT) assets.
+        Comprehensive IoT data-plane functionality is available in the Azure IoT CLI Extension. For
+        more info and install guide go to https://github.com/Azure/azure-iot-cli-extension.
+
+Subgroups:
+    dps : Manage Azure IoT Hub Device Provisioning Service.
+    hub : Manage Azure IoT hubs.
+    pnp : Manage IoT Plug and Play repositories and repository access keys.
+
 </pre>
 
 ---
