@@ -980,6 +980,20 @@ Subgroups:
     dps : Manage Azure IoT Hub Device Provisioning Service.
     hub : Manage Azure IoT hubs.
     pnp : Manage IoT Plug and Play repositories and repository access keys.
+    
+Get more granular managing IoT devices.
+    
+marlon@Azure:~$ az iotcentral app -h
+
+Group
+    az iotcentral app : Manage IoT Central applications.
+
+Commands:
+    create : Create an IoT Central application.
+    delete : Delete an IoT Central application.
+    list   : List IoT Central applications.
+    show   : Get the details of an IoT Central application.
+    update : Update metadata for an IoT Central application.
 
 </pre>
 
