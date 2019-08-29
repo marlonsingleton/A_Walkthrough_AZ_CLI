@@ -994,6 +994,32 @@ Commands:
     list   : List IoT Central applications.
     show   : Get the details of an IoT Central application.
     update : Update metadata for an IoT Central application.
+    
+Protect your secrets with az keyvault.
+    
+marlon@Azure:~$ az keyvault -h
+
+Group
+    az keyvault : Manage KeyVault keys, secrets, and certificates.
+
+Subgroups:
+    certificate   : Manage certificates.
+    key           : Manage keys.
+    network-rule  : Manage vault network ACLs.
+    secret        : Manage secrets.
+    storage       : Manage storage accounts.
+
+Commands:
+    create        : Create a key vault.
+    delete        : Delete a key vault.
+    delete-policy : Delete security policy settings for a Key Vault.
+    list          : List key vaults.
+    list-deleted  : Gets information about the deleted vaults in a subscription.
+    purge         : Permanently deletes the specified vault.
+    recover       : Recover a key vault.
+    set-policy    : Update security policy settings for a Key Vault.
+    show          : Show details of a key vault.
+    update        : Update the properties of a key vault.
 
 </pre>
 
