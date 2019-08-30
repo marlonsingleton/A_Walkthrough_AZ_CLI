@@ -1020,6 +1020,18 @@ Commands:
     set-policy    : Update security policy settings for a Key Vault.
     show          : Show details of a key vault.
     update        : Update the properties of a key vault.
+    
+ Manage Kusto Clusters and Resources.
+ 
+ marlon@localhost:~$ az kusto -h
+
+Group
+    az kusto : Manage Azure Kusto resources.
+
+Subgroups:
+    cluster  : Manage Azure Kusto clusters.
+    database : Manage Azure Kusto databases.
+
 
 </pre>
 
