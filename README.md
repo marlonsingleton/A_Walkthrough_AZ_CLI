@@ -1032,7 +1032,29 @@ Subgroups:
     cluster  : Manage Azure Kusto clusters.
     database : Manage Azure Kusto databases.
 
+Manage your dev environment and artifacts with az lab.
 
+marlon@Azure:~$ az lab -h
+
+Group
+    az lab : Manage Azure DevTest Labs.
+        This command group is in preview. It may be changed/removed in a future release.
+Subgroups:
+    arm-template    : Manage Azure Resource Manager (ARM) templates in an Azure DevTest Lab.
+    artifact        : Manage DevTest Labs artifacts.
+    artifact-source : Manage DevTest Lab artifact sources.
+    custom-image    : Manage custom images of a DevTest Lab.
+    environment     : Manage environments for an Azure DevTest Lab.
+    formula         : Manage formulas for an Azure DevTest Lab.
+    gallery-image   : List Azure Marketplace images allowed for a DevTest Lab.
+    secret          : Manage secrets of an Azure DevTest Lab.
+    vm              : Manage VMs in an Azure DevTest Lab.
+    vnet            : Manage virtual networks of an Azure DevTest Lab.
+
+Commands:
+    delete          : Delete lab.
+    get             : Get lab.
+    
 </pre>
 
 ---
