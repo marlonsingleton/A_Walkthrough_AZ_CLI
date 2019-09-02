@@ -1055,6 +1055,22 @@ Commands:
     delete          : Delete lab.
     get             : Get lab.
     
+    
+Lock your resources to prevent accidental changes using "az lock"
+
+marlon@localhost:~$ az lock -h
+
+Group
+    az lock : Manage Azure locks.
+
+Commands:
+    create : Create a lock.
+    delete : Delete a lock.
+    list   : List lock information.
+    show   : Show the properties of a lock.
+    update : Update a lock.
+
+
 </pre>
 
 ---
