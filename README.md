@@ -1071,7 +1071,8 @@ Commands:
     update : Update a lock.
 
 Interactive sign-in from Azure CLI.
-
+</pre>
+<pre>
 marlon@Azure:~$ az login -h
 
 Command
