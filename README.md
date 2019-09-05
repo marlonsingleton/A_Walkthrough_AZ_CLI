@@ -1070,6 +1070,39 @@ Commands:
     show   : Show the properties of a lock.
     update : Update a lock.
 
+Interactive sign-in from Azure CLI.
+
+marlon@Azure:~$ az login -h
+
+Command
+    az login : Log in to Azure.
+
+Arguments
+    --allow-no-subscriptions : Support access tenants without subscriptions. It's uncommon but
+                               useful to run tenant level commands, such as 'az ad'.
+    --password -p            : Credentials like user password, or for a service principal, provide
+                               client secret or a pem file with key and public certificate. Will
+                               prompt if not given.
+    --service-principal      : The credential representing a service principal.
+    --tenant -t              : The AAD tenant, must provide when using service principals.
+    --use-cert-sn-issuer     : Used with a service principal configured with Subject Name and Issuer
+                               Authentication in order to support automatic certificate rolls.
+    --use-device-code        : Use CLI's old authentication flow based on device code. CLI will also
+                               use this if it can't launch a browser in your behalf, e.g. in remote
+                               SSH or Cloud Shell.
+    --username -u            : User name, service principal, or managed service identity ID.
+
+Managed Service Identity Arguments
+    --identity -i            : Log in using the Virtual Machine's identity.
+
+Global Arguments
+    --debug                  : Increase logging verbosity to show all debug logs.
+    --help -h                : Show this help message and exit.
+    --output -o              : Output format.  Allowed values: json, jsonc, none, table, tsv, yaml.
+                               Default: json.
+    --query                  : JMESPath query string. See http://jmespath.org/ for more information
+                               and examples.
+    --verbose                : Increase logging verbosity. Use --debug for full debug logs.
 
 </pre>
 
