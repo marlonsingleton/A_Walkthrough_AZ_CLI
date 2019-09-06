@@ -1104,6 +1104,23 @@ Global Arguments
                                and examples.
     --verbose                : Increase logging verbosity. Use --debug for full debug logs.
 
+Logout out of your Azure subscription.
+
+marlon@Azure:~$ az logout -h
+
+Command
+    az logout : Log out to remove access to Azure subscriptions.
+
+Arguments
+    --username  : Account user, if missing, logout the current active account.
+
+Global Arguments
+    --debug     : Increase logging verbosity to show all debug logs.
+    --help -h   : Show this help message and exit.
+    --output -o : Output format.  Allowed values: json, jsonc, none, table, tsv, yaml.  Default:
+                  json.
+    --query     : JMESPath query string. See http://jmespath.org/ for more information and examples.
+    --verbose   : Increase logging verbosity. Use --debug for full debug logs.
 </pre>
 
 ---
