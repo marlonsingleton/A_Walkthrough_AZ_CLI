@@ -1121,6 +1121,23 @@ Global Arguments
                   json.
     --query     : JMESPath query string. See http://jmespath.org/ for more information and examples.
     --verbose   : Increase logging verbosity. Use --debug for full debug logs.
+    
+You can manage template solutions provided and maintained by Independent Software Vendors (ISVs).
+
+marlon@Azure:~$ az managedapp -h
+
+Group
+    az managedapp : Manage template solutions provided and maintained by Independent Software
+    Vendors (ISVs).
+
+Subgroups:
+    definition : Manage Azure Managed Applications.
+
+Commands:
+    create     : Create a managed application.
+    delete     : Delete a managed application.
+    list       : List managed applications.
+    show       : Gets a managed application.
 </pre>
 
 ---
