@@ -1138,6 +1138,23 @@ Commands:
     delete     : Delete a managed application.
     list       : List managed applications.
     show       : Gets a managed application.
+    
+Manage the geospatial services that use fresh mapping data to provide accurate geographic context to your web and mobile applications.
+
+marlon@Azure:~$ az maps account -h
+
+Group
+    az maps account : Manage Azure Maps accounts.
+
+Subgroups:
+    keys   : Manage Azure Maps account keys.
+
+Commands:
+    create : Create a maps account.
+    delete : Delete a maps account.
+    list   : Show all maps accounts in a subscription or in a resource group.
+    show   : Show the details of a maps account.
+    update : Update the properties of a maps account.
 </pre>
 
 ---
