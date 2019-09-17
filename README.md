@@ -1155,6 +1155,18 @@ Commands:
     list   : Show all maps accounts in a subscription or in a resource group.
     show   : Show the details of a maps account.
     update : Update the properties of a maps account.
+    
+Manage Azure DBs for MariaDB servers.
+
+marlon@localhost:~$ az mariadb -h
+
+Group
+    az mariadb : Manage Azure Database for MariaDB servers.
+
+Subgroups:
+    db          : Manage MariaDB databases on a server.
+    server      : Manage MariaDB servers.
+    server-logs : Manage server logs.
 </pre>
 
 ---
