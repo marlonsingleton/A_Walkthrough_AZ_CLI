@@ -1167,6 +1167,21 @@ Subgroups:
     db          : Manage MariaDB databases on a server.
     server      : Manage MariaDB servers.
     server-logs : Manage server logs.
+    
+Do you need to manage Azure Monitor?
+
+marlon@Azure:~$ az monitor -h
+
+Group
+    az monitor : Manage the Azure Monitor Service.
+
+Subgroups:
+    action-group        : Manage action groups.
+    activity-log        : Manage activity logs.
+    autoscale           : Manage autoscale settings.
+    diagnostic-settings : Manage service diagnostic settings.
+    log-profiles        : Manage log profiles.
+    metrics             : View Azure resource metrics.
 </pre>
 
 ---
