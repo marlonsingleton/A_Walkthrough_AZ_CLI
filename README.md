@@ -1182,6 +1182,18 @@ Subgroups:
     diagnostic-settings : Manage service diagnostic settings.
     log-profiles        : Manage log profiles.
     metrics             : View Azure resource metrics.
+    
+Manage your Azure MySQL servers.
+
+marlon@Azure:~$ az mysql -h
+
+Group
+    az mysql : Manage Azure Database for MySQL servers.
+
+Subgroups:
+    db          : Manage MySQL databases on a server.
+    server      : Manage MySQL servers.
+    server-logs : Manage server logs.
 </pre>
 
 ---
