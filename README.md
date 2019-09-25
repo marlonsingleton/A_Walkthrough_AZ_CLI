@@ -1194,6 +1194,44 @@ Subgroups:
     db          : Manage MySQL databases on a server.
     server      : Manage MySQL servers.
     server-logs : Manage server logs.
+    
+Manage your Azure Network resources.
+
+marlon@Azure:~$ az network -h
+
+Group
+    az network : Manage Azure Network resources.
+
+Subgroups:
+    application-gateway            : Manage application-level routing and load balancing services.
+    asg                            : Manage application security groups (ASGs).
+    ddos-protection                : Manage DDoS Protection Plans.
+    dns                            : Manage DNS domains in Azure.
+    express-route                  : Manage dedicated private network fiber connections to Azure.
+    lb                             : Manage and configure load balancers.
+    local-gateway                  : Manage local gateways.
+    nat                            : Commands to manage NAT resources.
+    nic                            : Manage network interfaces.
+    nsg                            : Manage Azure Network Security Groups (NSGs).
+    private-dns                    : Manage Private DNS domains in Azure.
+    private-endpoint               : Manage private endpoints.
+    private-link-service [Preview] : Manage private link services.
+    profile                        : Manage network profiles.
+    public-ip                      : Manage public IP addresses.
+    route-filter         [Preview] : Manage route filters.
+    route-table                    : Manage route tables.
+    service-endpoint               : Manage policies related to service endpoints.
+    traffic-manager                : Manage the routing of incoming traffic.
+    vnet                           : Manage Azure Virtual Networks.
+    vnet-gateway                   : Use an Azure Virtual Network Gateway to establish secure,
+                                     cross-premises connectivity.
+    vpn-connection                 : Manage VPN connections.
+    watcher                        : Manage the Azure Network Watcher.
+
+Commands:
+    list-service-tags              : List all service tags which are below to different resources.
+    list-usages                    : List the number of network resources in a region that are used
+                                     against a subscription quota.
 </pre>
 
 ---
