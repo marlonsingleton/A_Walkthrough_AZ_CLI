@@ -1232,6 +1232,19 @@ Commands:
     list-service-tags              : List all service tags which are below to different resources.
     list-usages                    : List the number of network resources in a region that are used
                                      against a subscription quota.
+				     
+Are you utilizing Red Hat OpenShift? Discover Azure Red Hat OpenShift Services.
+
+Group
+    az openshift : Manage Azure Red Hat OpenShift Services.
+
+Commands:
+    create : Create a new managed OpenShift cluster.
+    delete : Delete a managed OpenShift cluster.
+    list   : List managed OpenShift clusters.
+    scale  : Scale the compute pool in a managed OpenShift cluster.
+    show   : Show the details for a managed OpenShift cluster.
+    wait   : Wait for a managed OpenShift cluster to reach a desired state.
 </pre>
 
 ---
