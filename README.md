@@ -1245,6 +1245,21 @@ Commands:
     scale  : Scale the compute pool in a managed OpenShift cluster.
     show   : Show the details for a managed OpenShift cluster.
     wait   : Wait for a managed OpenShift cluster to reach a desired state.
+    
+Azure Policy helps enforce and manage rules needed for your organization to met and maintain compliance standards.
+
+marlon@Azure:~$ az policy -h
+
+Group
+    az policy : Manage resource policies.
+
+Subgroups:
+    assignment            : Manage resource policy assignments.
+    definition            : Manage resource policy definitions.
+    event       [Preview] : Manage policy events.
+    remediation [Preview] : Manage resource policy remediations.
+    set-definition        : Manage resource policy set definitions.
+    state       [Preview] : Manage policy compliance states.
 </pre>
 
 ---
