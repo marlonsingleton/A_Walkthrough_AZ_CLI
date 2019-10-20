@@ -1260,6 +1260,18 @@ Subgroups:
     remediation [Preview] : Manage resource policy remediations.
     set-definition        : Manage resource policy set definitions.
     state       [Preview] : Manage policy compliance states.
+    
+Manage your PostgreSQL servers/databases on Azure.
+
+marlon@Azure:~$ az postgres -h
+
+Group
+    az postgres : Manage Azure Database for PostgreSQL servers.
+
+Subgroups:
+    db          : Manage PostgreSQL databases on a server.
+    server      : Manage PostgreSQL servers.
+    server-logs : Manage server logs.
 </pre>
 
 ---
