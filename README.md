@@ -1272,6 +1272,20 @@ Subgroups:
     db          : Manage PostgreSQL databases on a server.
     server      : Manage PostgreSQL servers.
     server-logs : Manage server logs.
+    
+Azure Proximity Placement Groups helps control network latency by controlling the placement of VMs.    
+    
+marlon@Azure:~$ az ppg -h
+
+Group
+    az ppg : Manage Proximity Placement Groups.
+
+Commands:
+    create : Create a proximity placement group.
+    delete : Delete a proximity placement group.
+    list   : List proximity placement groups.
+    show   : Get a proximity placement group.
+    update : Update a proximity placement group.
 </pre>
 
 ---
