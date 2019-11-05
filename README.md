@@ -1425,6 +1425,30 @@ Sendgrid.Email                          NotRegistered        RegistrationRequire
 Sparkpost.Basic                         NotRegistered        RegistrationRequired
 stackify.retrace                        NotRegistered        RegistrationRequired
 U2uconsult.TheIdentityHub               NotRegistered        RegistrationRequired
+
+Are you using Redis Cache to improve the performance and scalability of your systems?
+
+marlon@Azure:~$ az redis -h
+
+Group
+    az redis : Manage dedicated Redis caches for your Azure applications.
+
+Subgroups:
+    firewall-rules  : Manage Redis firewall rules.
+    patch-schedule  : Manage Redis patch schedules.
+    server-link     : Manage Redis server links.
+
+Commands:
+    create          : Create new Redis Cache instance.
+    delete          : Deletes a Redis cache.
+    export          : Export data stored in a Redis cache.
+    force-reboot    : Reboot specified Redis node(s).
+    import          : Import data into a Redis cache.
+    list            : List Redis Caches.
+    list-keys       : Retrieve a Redis cache's access keys.
+    regenerate-keys : Regenerate Redis cache's access keys.
+    show            : Gets a Redis cache (resource description).
+    update          : Update a Redis cache.
 </pre>
 
 ---
