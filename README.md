@@ -1449,6 +1449,18 @@ Commands:
     regenerate-keys : Regenerate Redis cache's access keys.
     show            : Gets a Redis cache (resource description).
     update          : Update a Redis cache.
+    
+Using Azure Relay Services to securely expose on prem resources to the public cloud?
+
+marlon@Azure:~$ az relay -h
+
+Group
+    az relay : Manage Azure Relay Service namespaces, WCF relays, hybrid connections, and rules.
+
+Subgroups:
+    hyco      : Manage Azure Relay Service Hybrid Connection and Authorization Rule.
+    namespace : Manage Azure Relay Service Namespace.
+    wcfrelay  : Manage Azure Relay Service WCF Relay and Authorization Rule.
 </pre>
 
 ---
