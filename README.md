@@ -1461,6 +1461,19 @@ Subgroups:
     hyco      : Manage Azure Relay Service Hybrid Connection and Authorization Rule.
     namespace : Manage Azure Relay Service Namespace.
     wcfrelay  : Manage Azure Relay Service WCF Relay and Authorization Rule.
+    
+Interested in the discounts that come along with Azure Reservations?
+
+marlon@Azure:~$ az reservations -h
+
+Group
+    az reservations : Manage Azure Reservations.
+        This command group is in preview. It may be changed/removed in a future release.
+Subgroups:
+    catalog              : See catalog of available reservations.
+    reservation          : Manage reservation entities.
+    reservation-order    : Manage reservation order, which is container for reservations.
+    reservation-order-id : See reservation order ids that are applied to subscription.
 </pre>
 
 ---
