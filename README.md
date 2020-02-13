@@ -1474,6 +1474,29 @@ Subgroups:
     reservation          : Manage reservation entities.
     reservation-order    : Manage reservation order, which is container for reservations.
     reservation-order-id : See reservation order ids that are applied to subscription.
+    
+Who doesn't manage Azure resources?
+
+marlon@Azure:~$ az resource list -o table
+Name                      ResourceGroup               Location    Type                               Status
+------------------------  --------------------------  ----------  ---------------------------------  --------
+cs26ec558767cf2x4d44xbba  cloud-shell-storage-eastus  eastus      Microsoft.Storage/storageAccounts
+NetworkWatcher_eastus     NetworkWatcherRG            eastus      Microsoft.Network/networkWatchers
+NetworkWatcher_eastus2    NetworkWatcherRG            eastus2     Microsoft.Network/networkWatchers
+NetworkWatcher_westus2    NetworkWatcherRG            westus2     Microsoft.Network/networkWatchers
+marlon@Azure:~$ az resource link -h
+
+Group
+    az resource link : Manage links between resources.
+        Linking is a feature of the Resource Manager. It enables declaring relationships between
+        resources even if they do not reside in the same resource group. Linking has no impact on
+        resource usage, billing, or role-based access. It allows for managing multiple resources
+        across groups as a single unit.
+
+Commands:
+    create : Create a new link between resources.
+    delete : Delete a link between resources.
+    list   : List resource links.
 </pre>
 
 ---
