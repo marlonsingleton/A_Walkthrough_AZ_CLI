@@ -1497,6 +1497,30 @@ Commands:
     create : Create a new link between resources.
     delete : Delete a link between resources.
     list   : List resource links.
+    
+Thinking about managing roles in a more automated way?
+
+marlon@Azure:~$ az role -h
+
+Group
+    az role : Manage user roles for access control with Azure Active Directory and service
+    principals.
+
+Subgroups:
+    assignment : Manage role assignments.
+    definition : Manage role definitions.
+
+
+marlon@Azure:~$ az role assignment -h
+
+Group
+    az role assignment : Manage role assignments.
+
+Commands:
+    create          : Create a new role assignment for a user, group, or service principal.
+    delete          : Delete role assignments.
+    list            : List role assignments.
+    list-changelogs : List changelogs for role assignments.
 </pre>
 
 ---
