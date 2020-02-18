@@ -1521,6 +1521,19 @@ Commands:
     delete          : Delete role assignments.
     list            : List role assignments.
     list-changelogs : List changelogs for role assignments.
+    
+Looking to add a search experience to your application?
+
+marlon@Azure:~$ az search -h
+
+Group
+    az search : Manage Azure Search services, admin keys and query keys.
+        This command group is in preview. It may be changed/removed in a future release.
+Subgroups:
+    admin-key : Manage Azure Search admin keys.
+    query-key : Manage Azure Search query keys.
+    service   : Manage Azure Search services.
+
 </pre>
 
 ---
