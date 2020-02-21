@@ -1534,6 +1534,17 @@ Subgroups:
     query-key : Manage Azure Search query keys.
     service   : Manage Azure Search services.
 
+Looking to manage security in your Azure subscription?
+
+marlon@Azure:~$ az security setting -h
+
+Group
+    az security setting : View your security settings.
+        Command group 'security' is in preview. It may be changed/removed in a future
+        release.
+Commands:
+    list : List security settings.
+    show : Shows a security setting.
 </pre>
 
 ---
