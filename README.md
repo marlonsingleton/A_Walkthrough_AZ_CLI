@@ -1545,6 +1545,22 @@ Group
 Commands:
     list : List security settings.
     show : Shows a security setting.
+    
+Using Service Bus as your messaging solution?
+
+marlon@Azure:~$ az servicebus -h
+
+Group
+    az servicebus : Manage Azure Service Bus namespaces, queues, topics, subscriptions, rules and
+    geo-disaster recovery configuration alias.
+
+Subgroups:
+    georecovery-alias : Manage Azure Service Bus Geo-Disaster Recovery Configuration Alias.
+    migration         : Manage Azure Service Bus Migration of Standard to Premium.
+    namespace         : Manage Azure Service Bus Namespace.
+    queue             : Manage Azure Service Bus Queue and Authorization Rule.
+    topic             : Manage Azure Service Bus Topic and Authorization Rule.
+
 </pre>
 
 ---
