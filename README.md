@@ -1560,6 +1560,19 @@ Subgroups:
     namespace         : Manage Azure Service Bus Namespace.
     queue             : Manage Azure Service Bus Queue and Authorization Rule.
     topic             : Manage Azure Service Bus Topic and Authorization Rule.
+    
+Do you need to manage service fabric?
+
+marlon@Azure:~$ az sf -h
+
+Group
+    az sf : Manage and administer Azure Service Fabric clusters.
+        This command group is in preview. It may be changed/removed in a future release.
+Subgroups:
+    application      : Manage applications running on an Azure Service Fabric cluster.
+    application-type : Manage application types on an Azure Service Fabric cluster.
+    cluster          : Manage an Azure Service Fabric cluster.
+    service          : Manage services running on an Azure Service Fabric cluster.
 
 </pre>
 
