@@ -1573,6 +1573,24 @@ Subgroups:
     application-type : Manage application types on an Azure Service Fabric cluster.
     cluster          : Manage an Azure Service Fabric cluster.
     service          : Manage services running on an Azure Service Fabric cluster.
+    
+Are you sharing images across your organization?
+
+marlon@Azure:~$ az sig -h
+
+Group
+    az sig : Manage shared image gallery.
+
+Subgroups:
+    image-definition : Create an image definition.
+    image-version    : Create a new version from an image defintion.
+
+Commands:
+    create           : Create a share image gallery.
+    delete           : Delete a Shared Image Gallery.
+    list             : List share image galleries.
+    show             : Retrieves information about a Shared Image Gallery.
+    update           : Update a share image gallery.
 
 </pre>
 
