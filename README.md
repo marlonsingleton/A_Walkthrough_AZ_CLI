@@ -1592,6 +1592,25 @@ Commands:
     show             : Retrieves information about a Shared Image Gallery.
     update           : Update a share image gallery.
 
+Real-time communications for you applications https://azure.microsoft.com/en-us/services/signalr-service/
+
+marlon@Azure:~$ az signalr -h
+
+Group
+    az signalr : Manage Azure SignalR Service.
+
+Subgroups:
+    cors    : Manage CORS for Azure SignalR Service.
+    key     : Manage keys for Azure SignalR Service.
+
+Commands:
+    create  : Creates a SignalR Service.
+    delete  : Deletes a SignalR Service.
+    list    : Lists all the SignalR Service under the current subscription.
+    restart : Restart an existing SignalR Service.
+    show    : Get the details of a SignalR Service.
+    update  : Update an existing SignalR Service.
+
 </pre>
 
 ---
