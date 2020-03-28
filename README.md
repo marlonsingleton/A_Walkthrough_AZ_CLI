@@ -1611,6 +1611,23 @@ Commands:
     show    : Get the details of a SignalR Service.
     update  : Update an existing SignalR Service.
 
+What admin doesn't love snapshots?
+
+marlon@Azure:~$ az snapshot -h
+
+Group
+    az snapshot : Manage point-in-time copies of managed disks, native blobs, or other snapshots.
+
+Commands:
+    create        : Create a snapshot.
+    delete        : Deletes a snapshot.
+    grant-access  : Grant read access to a snapshot.
+    list          : List snapshots.
+    revoke-access : Revoke read access to a snapshot.
+    show          : Gets information about a snapshot.
+    update        : Update a snapshot.
+    wait          : Place the CLI in a waiting state until a condition of a snapshot is met.
+
 </pre>
 
 ---
