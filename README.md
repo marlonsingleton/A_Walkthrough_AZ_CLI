@@ -1627,8 +1627,31 @@ Commands:
     show          : Gets information about a snapshot.
     update        : Update a snapshot.
     wait          : Place the CLI in a waiting state until a condition of a snapshot is met.
+    
+PS /home/marlon> az sql -h
+
+Group
+    az sql : Manage Azure SQL Databases and Data Warehouses.
+
+Subgroups:
+    db                      : Manage databases.
+    dw                      : Manage data warehouses.
+    elastic-pool            : Manage elastic pools.
+    failover-group          : Manage SQL Failover Groups.
+    instance-failover-group : Manage SQL Instance Failover Groups.
+    mi                      : Manage SQL managed instances.
+    midb                    : Manage SQL managed instance databases.
+    server                  : Manage SQL servers.
+    virtual-cluster         : Manage SQL virtual clusters.
+    vm            [Preview] : Manage SQL virtual machines.
+
+Commands:
+    list-usages             : Gets all subscription usage metrics in a given location.
+    show-usage              : Gets a subscription usage metric.
+
+For more specific examples, use: az find "az sql" 
 
 </pre>
 
 ---
-(Incomplete) updated frequently!!!
+(Incomplete)
