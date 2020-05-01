@@ -1628,6 +1628,8 @@ Commands:
     update        : Update a snapshot.
     wait          : Place the CLI in a waiting state until a condition of a snapshot is met.
     
+Using Managed SQL
+    
 PS /home/marlon> az sql -h
 
 Group
